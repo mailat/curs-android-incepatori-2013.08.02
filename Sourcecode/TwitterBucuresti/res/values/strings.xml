@@ -5,4 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 	<string name="button_update">Update</string>
+	
+	<string name="titleUsername">username</string>
+	<string name="titlePassword">password</string>	
 </resources>

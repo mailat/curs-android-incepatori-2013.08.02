@@ -1,6 +1,7 @@
 package com.appsrise.twitter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -62,6 +64,13 @@ public class MainActivity extends Activity implements OnClickListener{
 		};
 		editText.addTextChangedListener(watcher);
 		
+	}
+
+	@Override
+	public boolean onMenuItemSelected(int featureId, MenuItem item) {
+		//call the preference activity
+		startActivity(new Intent(this, PrefsActivity.class));
+		return (true);
 	}
 
 	@Override
