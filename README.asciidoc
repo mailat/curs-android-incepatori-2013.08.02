@@ -5,6 +5,8 @@
 *Marius Mailat*, +<marius.mailat@gmail.com>+
 http://appsrise.com[Appsrise SRL, Appseleration GmBH]
 
+Cursul se bazeaza pe materialul de curs http://www.androider.ro/cursuri-android
+
 == Materialele de curs
 
 Poti clona acest repository folosind comanda:
